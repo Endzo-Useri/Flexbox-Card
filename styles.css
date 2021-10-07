@@ -1,14 +1,16 @@
-/* html,
 body {
 	margin: 0;
-	padding: 0;
-} */
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .card {
 	width: 90%;
 	margin: 0 auto;
 	max-width: 800px;
-	background: #111d4a;
+	background: hsl(227, 63%, 18%);
 	color: #fff;
 	display: flex;
 	flex-direction: column;
@@ -19,8 +21,6 @@ body {
 	flex-basis: 200px;
 	min-width: 0;
 	min-height: 0;
-	
-	background: yellow;
 }
 
 .card-content {
@@ -34,7 +34,7 @@ body {
 }
 
 .card-title {
-	color: #05cbe9;
+	color: hsl(188, 96%, 47%);
 	font-size: 1.75rem;
 	margin: 0;
 }
@@ -54,8 +54,8 @@ body {
 
 .card-btn {
 	font-size: 1.25rem;
-	background: #05cbe9;
-	color: #111d4a;
+	background: hsl(188, 96%, 47%);
+	color: hsl(227, 63%, 18%);
 	text-decoration: none;
 	font-weight: 700;
 	padding: .35em 1em;
@@ -86,6 +86,15 @@ body {
 	.card-content {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.card-title {
+		font-size: 2.25rem;
+	}
+
+	.card-body {
+		font-size: 1.125rem;
+		max-width: 500px;
 	}
 
 	.card-footer {
