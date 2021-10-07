@@ -68,8 +68,9 @@ body {
 
 .card-btn:hover,
 .card-btn:focus {
-	background: hsl(188, 96%, 37%);
-	color: hsl(0, 0%, 80%);
+	background: hsl(227, 63%, 18%);
+	color: hsl(0, 0%, 90%);
+	border: 3px solid hsl(188, 96%, 47%);
 	transform: scale(1.1);
 }
 
