@@ -60,6 +60,22 @@ body {
 	font-weight: 700;
 	padding: .35em 1em;
 	letter-spacing: 1px;
+	border-radius: 3rem;
+	transform: scale(1);
+	transition: transform 250ms;
+}
+
+.card-btn:hover,
+.card-btn:focus {
+	background: hsl(188, 96%, 37%);
+	color: hsl(0, 0%, 90%);
+	transform: scale(1.1);
+}
+
+.card-btn:active {
+	background: hsl(188, 96%, 47%);
+	color: hsl(227, 63%, 18%);
+	transform: scale(1);
 }
 
 .card-read-time {
