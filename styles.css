@@ -35,8 +35,9 @@ body {
 
 .card-title {
 	color: hsl(188, 96%, 47%);
-	font-size: 1.45rem;
+	font-size: 1.3rem;
 	margin: 0;
+	text-align: center;
 }
 
 .card-body {
@@ -71,7 +72,7 @@ body {
 	background: hsl(227, 63%, 18%);
 	color: hsl(0, 0%, 90%);
 	border: 3px solid hsl(188, 96%, 47%);
-	transform: scale(1.1);
+	transform: scale(1.03);
 }
 
 .card-btn:active {
