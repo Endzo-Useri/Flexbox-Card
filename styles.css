@@ -37,15 +37,15 @@ body {
 	color: hsl(188, 96%, 47%);
 	font-size: 1.75rem;
 	margin: 0;
-	margin-bottom: 1.1em;
+	margin-bottom: .7em;
 	text-align: center;
 }
 
 .card-body {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-family: 'Source Sans Pro', sans-serif;
 	max-width: 400rem;
-	margin: auto;
+	margin: 0 auto;
 	line-height: 1.6;
 }
 
