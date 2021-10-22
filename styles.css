@@ -18,7 +18,7 @@ body {
 
 .card-img {
 	object-fit: cover;
-	flex-basis: 200px;
+	flex-basis: 200px; 
 	min-width: 0;
 	min-height: 0;
 }
@@ -113,7 +113,7 @@ body {
 
 	.card-body {
 		font-size: 1.125rem;
-		max-width: 500px;
+		max-width: 400px;
 	}
 
 	.card-footer {
