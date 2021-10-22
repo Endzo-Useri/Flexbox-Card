@@ -37,6 +37,7 @@ body {
 	color: hsl(188, 96%, 47%);
 	font-size: 1.75rem;
 	margin: 0;
+	margin-bottom: 1.1em;
 	text-align: center;
 }
 
@@ -114,7 +115,6 @@ body {
 	}
 
 	.card-body {
-		border: 3px solid red;
 		font-size: 1.3rem;
 		max-width: 400px;
 		margin: auto;
