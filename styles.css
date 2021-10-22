@@ -47,6 +47,7 @@ body {
 	max-width: 400rem;
 	margin: 0 auto;
 	line-height: 1.6;
+	text-align: center;
 }
 
 .card-footer {
@@ -58,8 +59,8 @@ body {
 
 .card-btn {
 	font-size: 1.25rem;
-	background: hsl(188, 96%, 47%);
-	color: hsl(227, 63%, 18%);
+	background: linear-gradient(45deg, hsl(0, 100%, 50%), hsl(188, 96%, 47%));
+	color: hsla(0, 0%, 90%, .8);
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -72,15 +73,15 @@ body {
 
 .card-btn:hover,
 .card-btn:focus {
-	background: hsl(227, 63%, 18%);
-	color: hsl(0, 0%, 90%);
-	border: 3px solid hsl(188, 96%, 47%);
+	background: linear-gradient(45deg, hsl(188, 96%, 47%), hsl(0, 100%, 50%));
+	color: hsla(0, 0%, 90%, .9);
+	/* border: 3px solid hsl(188, 96%, 47%); */
 	transform: scale(1.03);
 }
 
 .card-btn:active {
-	background: hsl(188, 96%, 47%);
-	color: hsl(227, 63%, 18%);
+	background: linear-gradient(45deg, hsl(0, 100%, 50%), hsl(188, 96%, 47%));
+	color: hsla(0, 0%, 90%, .8);
 	transform: scale(1);
 }
 
