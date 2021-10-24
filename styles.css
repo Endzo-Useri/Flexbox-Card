@@ -12,8 +12,7 @@ body {
 	max-width: 800px;
 	background: hsl(227, 63%, 18%);
 	color: #fff;
-	display: flex;
-	flex-direction: column;
+	display: grid;
 }
 
 .card-img {
